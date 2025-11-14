@@ -1,0 +1,66 @@
+/***** Creative Student Style *****/
+body {
+  font-family: Poppins, Arial, sans-serif;
+  margin: 0;
+  background: linear-gradient(120deg, #d7f7ff, #f4ffe8);
+  color: #333;
+}
+
+/* Header */
+.header {
+  background: #ffffffaa;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  backdrop-filter: blur(6px);
+}
+.logo { font-weight: 700; font-size: 1.3rem; }
+.nav a { margin-left: 15px; text-decoration: none; color: #333; font-weight: 500; }
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+}
+.highlight {
+  color: #0099cc;
+  font-weight: 700;
+}
+.btn {
+  background: #0099cc;
+  color: #fff;
+  padding: 10px 20px;
+  display: inline-block;
+  margin-top: 15px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+/* Content */
+.content {
+  padding: 30px;
+  max-width: 700px;
+  margin: auto;
+}
+.feature-list li {
+  margin: 8px 0;
+}
+
+/* Contact Form */
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0 14px;
+  border-radius: 6px;
+  border: 1px solid #aaa;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+  background: #ffffffbb;
+  backdrop-filter: blur(4px);
+}
