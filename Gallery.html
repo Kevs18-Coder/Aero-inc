@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery - Aero Inc.</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <nav class="navbar">
+    <h1 class="logo">AERO INC.</h1>
+    <div class="nav-links">
+      <a href="Aero.html">Home</a>
+      <a href="aboutUs.html">About Us</a>
+      <a href="Product.html">Products</a>
+      <a href="Gallery.html">Gallery</a>
+      <a href="Contact.html">Contact Us</a>
+    </div>
+  </nav>
+</header>
+
+<section class="page-header">
+  <h1>Gallery</h1>
+  <p>From spacecraft design to launch success — explore our journey.</p>
+</section>
+
+<!-- FILTERS -->
+<section class="gallery-controls">
+  <button class="filter-btn active" data-filter="all">All</button>
+  <button class="filter-btn" data-filter="design">Design</button>
+  <button class="filter-btn" data-filter="launch">Launch</button>
+  <button class="filter-btn" data-filter="concept">Concept</button>
+</section>
+
+<!-- GRID -->
+<section class="gallery-grid">
+
+  <div class="gallery-item design">
+    <img src="Image/Concept Model Alpha.jpg" alt="Concept Model Alpha">
+    <div class="overlay">Concept Model Alpha</div>
+  </div>
+
+  <div class="gallery-item launch">
+    <img src="Image/Orion V Launch.jpg" alt="Orion V Launch">
+    <div class="overlay">Orion V Launch</div>
+  </div>
+
+  <div class="gallery-item design">
+    <img src="Image/Nova X Orbital Cruiser.jpg" alt="Nova X">
+    <div class="overlay">Nova X Orbital Cruiser</div>
+  </div>
+
+  <div class="gallery-item concept">
+    <img src="Image/Deep-Space Vessel Omega.jpg" alt="Omega">
+    <div class="overlay">Deep-Space Vessel Omega</div>
+  </div>
+
+  <div class="gallery-item design">
+    <img src="Image/High Speed Orbiter.jpg" alt="Orbiter">
+    <div class="overlay">High-Speed Orbiter Y-12</div>
+  </div>
+
+  <div class="gallery-item launch">
+    <img src="Image/Exploration Craft X.jpg" alt="Craft X">
+    <div class="overlay">Exploration Craft X</div>
+  </div>
+
+</section>
+
+<!-- CTA -->
+<section class="gallery-cta">
+  <h2>Inspired by Our Innovations?</h2>
+  <p>Explore our spacecraft lineup or contact us for partnerships.</p>
+  <a href="Product.html" class="btn">View Products</a>
+  <a href="Contact.html" class="btn">Contact Us</a>
+</section>
+
+<!-- MODAL -->
+<div class="image-modal" id="imageModal">
+  <span class="close-modal">&times;</span>
+  <img id="modalImg" alt="">
+  <p id="modalText"></p>
+</div>
+
+<footer>
+  <p>© 2025 Aero Inc. • All Rights Reserved</p>
+</footer>
+
+<script src="Script.js"></script>
+</body>
+</html>

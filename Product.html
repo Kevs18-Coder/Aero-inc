@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Products-Aero</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<header>
+  <nav class="navbar">
+      <h1 class="logo">AERO INC.</h1>
+      <div class="nav-links">
+          <a href="Aero.html">Home</a>
+          <a href="aboutUs.html">About Us</a>
+          <a href="Product.html">Products</a>
+          <a href="Gallery.html">Gallery</a>
+          <a href="Contact.html">Contact Us</a>
+      </div>
+  </nav>
+</header>
+
+<section id="product">
+    <h1>Our Spacecrafts</h1>
+
+    <h2>Popular</h2>
+    <section class="card-row">
+            <div class="card" onclick="openModal('Nova X', 1200000, 6)">
+            <img src="Image/satelite.jpg" alt="Satellite">
+            <h3>Orbital Satellite X1</h3>
+            <p>Next-gen communication satellite for global coverage and high-speed connectivity.</p>
+            </div>
+            <div class="card" onclick="openModal('Nova X', 1200000, 6)">
+            <img src="Image/spaceship.jpg" alt="Spacecraft">
+            <h3>Deep Space Explorer</h3>
+            <p>Designed for interplanetary missions, optimized for long-duration space travel.</p>
+            </div>
+            <div class="card" onclick="openModal('Nova X', 1200000, 6)">
+            <img src="Image/rocket.jpg" alt="Rocket">
+            <h3>Launch Rocket Z5</h3>
+            <p>Reliable heavy-lift launch vehicle for deploying satellites and cargo into orbit.</p>
+            </div>
+            <div class="card" onclick="openModal('Nova X', 1200000, 6)">
+            <img src="Image/spaceship2.jpg" alt="Aerospace Drone">
+            <h3>High-Speed Aerospace Drone</h3>
+            <p>Autonomous drone for surveillance, research, and experimental aerospace projects.</p>
+            </div>
+  </section>
+
+    <h2>New</h2>
+    <section class="card-row">
+    <div class="card-row">
+      <div class="card" onclick="openModal('Nova X', 1200000, 6)">
+      <h3>Nova X</h3><p>Luxury orbital cruiser</p>
+      </div>
+      <div class="card" onclick="openModal('Orion V', 800000, 4)">
+      <h3>Orion V</h3><p>Reliable mid-range craft</p>
+      </div>
+      <div class="card" onclick="openModal('Nova X', 1200000, 6)">
+      <h3>Nova X</h3><p>Luxury orbital cruiser</p>
+      </div>
+      <div class="card" onclick="openModal('Orion V', 800000, 4)">
+      <h3>Orion V</h3><p>Reliable mid-range craft</p>
+      </div>
+      <div class="card" onclick="openModal('Nova X', 1200000, 6)">
+      <h3>Nova X</h3><p>Luxury orbital cruiser</p>
+      </div>
+      <div class="card" onclick="openModal('Orion V', 800000, 4)">
+      <h3>Orion V</h3><p>Reliable mid-range craft</p>
+      </div>
+    </div>
+    </section>
+  
+
+  <h2>Budget</h2>
+     <section class="card-row">
+            <div class="card" onclick="openModal('Nova X', 1200000, 6)">
+            <img src="Image/satelite.jpg" alt="Satellite">
+            <h3>Orbital Satellite X1</h3>
+            <p>Next-gen communication satellite for global coverage and high-speed connectivity.</p>
+            </div>
+            <div class="card" onclick="openModal('Nova X', 1200000, 6)">
+            <img src="Image/spaceship.jpg" alt="Spacecraft">
+            <h3>Deep Space Explorer</h3>
+            <p>Designed for interplanetary missions, optimized for long-duration space travel.</p>
+            </div>
+            <div class="card" onclick="openModal('Nova X', 1200000, 6)">
+            <img src="Image/rocket.jpg" alt="Rocket">
+            <h3>Launch Rocket Z5</h3>
+            <p>Reliable heavy-lift launch vehicle for deploying satellites and cargo into orbit.</p>
+            </div>
+            <div class="card" onclick="openModal('Nova X', 1200000, 6)">
+            <img src="Image/spaceship2.jpg" alt="Aerospace Drone">
+            <h3>High-Speed Aerospace Drone</h3>
+            <p>Autonomous drone for surveillance, research, and experimental aerospace projects.</p>
+            </div>
+  </section>
+  </section>
+
+<div class="modal" id="modal">
+    <div class="modal-content">
+      <h3 id="shipName"></h3>
+      <p id="shipInfo"></p>
+      <input type="date" />
+      <input type="number" placeholder="Passengers" />
+      <input type="text" placeholder="Full Name" />
+      <select>
+        <option>Credit Card</option>
+        <option>PayPal</option>
+      </select>
+      <button class="btn" onclick="closeModal()">Book Now</button>
+    </div>
+  </div>
+
+
+  <script src="Script.js"></script>
+  
+<footer>
+<p>© 2025 Aero Inc.</p>
+<p>Email: support@aeroinc.com</p>
+<p>Privacy Policy | Terms of Service</p>
+</footer>
+
+</body>
