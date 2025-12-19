@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Products-Aero</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="Style.css">
 </head>
 
 <body>
@@ -98,23 +98,24 @@
   </section>
   </section>
 
+<!-- UPDATED MODAL WITH BACK ARROW -->
 <div class="modal" id="modal">
     <div class="modal-content">
+      <span id="backArrow">&#8592; </span> <!-- <- NEW BACK ARROW -->
       <h3 id="shipName"></h3>
       <p id="shipInfo"></p>
-      <input type="date" />
+      <input type="date" id="bookingDate" />
       <input type="number" placeholder="Passengers" />
       <input type="text" placeholder="Full Name" />
       <select>
         <option>Credit Card</option>
         <option>PayPal</option>
       </select>
-      <button class="btn" onclick="closeModal()">Book Now</button>
+      <button class="btn">Book Now</button>
     </div>
-  </div>
+</div>
 
-
-  <script src="Script.js"></script>
+<script src="Script.js"></script>
   
 <footer>
 <p>© 2025 Aero Inc.</p>
@@ -123,3 +124,4 @@
 </footer>
 
 </body>
+</html>
